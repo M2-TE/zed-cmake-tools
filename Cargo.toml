@@ -1,0 +1,11 @@
+[package]
+name = "cmake-tools"
+version = "0.0.1"
+edition = "2025"
+
+[lib]
+path = "src/main.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"

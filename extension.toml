@@ -1,0 +1,7 @@
+id = "cmake-tools"
+name = "CMake Tools"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jan Kuhlmann <jan.kuhlmann@proton.me>"]
+description = "CMake Tools for Zed"
+repository = "https://github.com/M2-TE/zed-cmake-tools.git"
