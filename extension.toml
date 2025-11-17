@@ -5,3 +5,11 @@ schema_version = 1
 authors = ["Jan Kuhlmann <jan.kuhlmann@proton.me>"]
 description = "CMake Tools for Zed"
 repository = "https://github.com/M2-TE/zed-cmake-tools.git"
+
+[language_servers.cmake]
+name = "cmake-tools"
+language = "CMake"
+
+[grammars.cmake]
+repository = "https://github.com/uyha/tree-sitter-cmake"
+commit = "cf9799600b2ba5e6620fdabddec3b2db8306bc46"      # v0.7.1
